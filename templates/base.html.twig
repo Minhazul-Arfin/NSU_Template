@@ -21,15 +21,17 @@
             <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
               <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <span class="fs-4 fw-bold">North South University</span>
+                <span class="fs-3 fw-bold">North South University</span>
               </a>
         
               <ul class="nav nav-pills">
-                <li class="nav-item fw-bold"><a href="#" class="nav-link text-dark" aria-current="page">Home</a></li>
+                <li class="nav-item fw-bold"><a href="{{path('homepage')}}" class="nav-link text-dark" aria-current="page">Home</a></li>
                 <li class="nav-item fw-bold"><a href="#" class="nav-link text-dark">Undergrade</a></li>
                 <li class="nav-item fw-bold"><a href="#" class="nav-link text-dark">Graduate</a></li>
                 <li class="nav-item fw-bold"><a href="#" class="nav-link text-dark">FAQs</a></li>
                 <li class="nav-item fw-bold"><a href="#" class="nav-link text-dark">About US</a></li>
+                <li class="nav-item fw-bold"><a href="{{path('app_product_crud_index')}}" class="nav-link text-dark">Products</a></li>
+                <li class="nav-item fw-bold"><a href="{{path('admin')}}" class="nav-link text-success">Admin</a></li>
               </ul>
             </header>
         </div>
